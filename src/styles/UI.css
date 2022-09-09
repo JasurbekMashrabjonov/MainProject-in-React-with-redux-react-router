@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* LOGO */
+.Logo{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 50px;
+    background-color:#fff;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.Logo .the{
+    transform: rotateZ(-90deg) ;
+    color:black;
+    font-size: 17px;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+    box-sizing:border-box;
+    /* width: 40px !important; */
+    /* height: 50px !important; */
+    padding: 0 !important;
+    background:red;
+    padding-bottom:0px !important;
+    margin: 0 !important;
+  }
+.Logo .store{
+    font-size: 30px;
+    font-weight: 800;
+    color:#330e78;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.Logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+/* MyButton1 */
+/* 
+  
+  body {
+    display: grid;
+    font-family: Avenir, sans-serif;
+    color: #111;
+  }
+   */
+ .MyButton1 a {
+    text-decoration: none;
+    color: #330e78 ;
+  }
+  
+  .cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background:#FF9800 ;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: #4811ae;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
+  .cta:hover {
+   color:#fff;
+  }
+  .Acaunt{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 23px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color:#fff;
+    border-radius:50%;
+    color:#333;
+  }

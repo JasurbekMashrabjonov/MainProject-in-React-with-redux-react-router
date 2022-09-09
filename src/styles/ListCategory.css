@@ -1,0 +1,14 @@
+.ListCategory{
+    background:#fff;
+     min-height: calc(100vh - 64px - 200px);
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 0px;
+    padding-top: 70px;
+
+  }

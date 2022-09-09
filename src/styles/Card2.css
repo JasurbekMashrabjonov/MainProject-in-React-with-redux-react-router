@@ -1,0 +1,122 @@
+
+.card2{
+    width: 350px;
+    text-align: left;
+}
+.card2  .card-image{
+  width: 330px !important;
+  height: 300px;
+  
+}
+.card2 .card-image img{
+  width: 300px !important;
+  height: 300px;
+}
+
+.card-title {
+  font-weight: 300;
+  padding:  10px !important;
+  margin: 0 !important;
+  font-size: 20px !important;
+  padding-right: 15px !important;
+  background:rgba(0,0,0,0.5);
+  border-top-right-radius: 50px;
+}
+.card2 .product-card .card {
+  margin: 20px;
+  overflow: hidden;
+}
+.card2 .product-card .card .card-content {
+  padding: 10px;
+}
+.card2 .product-card .card .price {
+  width:70px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 1.15rem;
+  line-height: 70px;
+  margin: 10px;
+  position: absolute;
+  /* padding: 10px; */
+  top: 0px;
+  z-index: 10;
+  left: 0px;
+  letter-spacing: 0;
+}
+.card2 .product-card ul.card-action-buttons {
+  margin: -18px 7px 0 0;
+  text-align: right;
+}
+.card2 .product-card ul.card-action-buttons li {
+  display: inline-block;
+  padding-left: 7px;
+}
+.card2 .product {
+  width: 20%;
+  padding: 10px;
+}
+.card2 .product .card {
+  margin: 0;
+}
+.card2 .product .card .card-content {
+  padding: 5px 10px;
+}
+.card2 .card_btn{
+  width: 90%;
+  margin: 14px;
+  margin-top: 0px;
+  border-radius:20px
+}
+@media screen and (max-width:700px){
+  .card2 .product-card ul.card-action-buttons li {
+    display: inline-block;
+    padding-left: 0px;
+    transform: scale(0.8);
+  }
+  .card2 .product-card .card .price {
+    width:30px;
+    height: 30px;
+    font-weight: 500;
+    font-size: .65rem;
+    line-height: 30px;
+    margin: 10px;
+    position: absolute;
+    /* padding: 10px; */
+    top: 0px;
+    z-index: 10;
+    left: 0px;
+    letter-spacing: 0;
+  }
+  .card2 .card_btn{
+    width: 90%;
+    margin: 4px 5px;
+    margin-top: 0px;
+    border-radius:20px;
+    font-size:15px ;
+  }
+  .card2{
+    width: 220px;
+  }
+  .card2  .card-image{
+    width: 180px !important;
+    height: 150px;
+    
+  }
+  .card2 .card-image img{
+    transform: scale(0.8);
+    width: 180px !important;
+    height: 150px;
+  }
+  .card-title{
+    font-size: 15px !important;
+    padding: 5px !important;
+    padding-right: 10px !important;
+  }
+  .card2 .product {
+    width: 20%;
+    padding: 10px;
+  }
+  .card2_p{
+    font-size: 13px;
+  }
+}

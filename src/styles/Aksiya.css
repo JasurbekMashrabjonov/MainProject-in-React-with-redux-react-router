@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Aksiya{
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    border-top: 3px solid #fff;
+    /* animation-name: borderAksiya; */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom,#ff9800,#fff  );
+}
+.Aksiya h6{
+    font-size: 20px;
+    font-weight: 700;
+    padding:0px  0 !important;
+    margin: 0;
+
+}
+.Aksiya p{
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 0px;
+    font-weight: 500;
+}
+.Aksiya i{
+    position: absolute;
+    font-size: 40px;
+    top: 5px;
+    right: 30px;
+    color: red;
+}
+
+@keyframes borderAksiya {
+    from{
+        border-color:red;
+    }
+    to{
+        border-color:blue;
+    }
+}
+.time_sale{
+    display: flex;
+}
+.time_sale_item{
+    width: 50px ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #333;
+    margin: 0px 10px;
+    background-color:#fff;
+
+}
+.sp{
+    font-size: 10px;
+}
+.border500{
+    padding: 0px 2px;
+    /* border-left: 1px solid #333; */
+}
+
+@media screen and (max-width:700px) {
+    .Aksiya p{
+        display: none;
+    }
+}

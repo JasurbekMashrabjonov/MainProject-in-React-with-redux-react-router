@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.RightPanel{
+    position: fixed;
+    z-index: 10;
+    top: 60px;
+    right: 0;
+    background-color: #eee;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    transition: .3s ease;
+
+ 
+}
+.RightPanel i{
+    padding: 20px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.RightPanel i:hover{
+    transform: scale(1.35);
+}
+.RightPanel .RightPanel_box1{
+    display: flex;
+    align-items: center;
+    background-color:#eee;
+    border-bottom-left-radius:40px;
+    position: relative;
+    flex-direction: column;
+}
+.RightPanel .RightPanel_box1 .RightPanel_box2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: translateX(100%);
+    
+}
+.RightPanelI1:hover .RightPanel_box2{
+    transform: translate(0%);
+    position: fixed;
+}
+.fa-circle-chevron-up{
+    transition: 0s;
+    position: absolute;
+    z-index: 101;
+    bottom: -20px;
+    left: -5px;
+    font-size:30px !important;
+    color:#eee;
+    background-color:black;
+    padding: 0 !important;
+    margin: 0;
+    border:1px solid #333;
+    border-radius: 50%;
+}
+.RightPanel_show{
+    transform: translateY(0%);
+}
+.RightPanel_hide{
+    transform: translateY(-100%);
+}
+.RightPanel_down{
+    transform: rotateZ(180deg);
+}

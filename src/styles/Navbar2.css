@@ -1,0 +1,149 @@
+.Navabar2 .menu10 {
+    background: #00394b;
+    box-shadow:10px 0px 10px #eee;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+  }
+  .menu10 ol {
+    list-style-type: none;
+    /* margin: 0 auto; */
+    padding: 0;
+  }
+  .menu10 > ol {
+    max-width: 1000px;
+    width: 70%;
+    padding: 0 1rem;
+    display: flex;
+  }
+  .menu10 > ol > .menu__item2 {
+    flex: 1;
+    padding: 0.5rem 0;
+  }
+  .menu10 > ol > .menu__item2:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    bottom: 5px;
+    left: calc(50% - 2px);
+    background: #FECEAB;
+    will-change: transform;
+    transform: scale(0);
+    transition: transform 0.2s ease;
+  }
+  .menu10 > ol > .menu__item2:hover:after {
+    transform: scale(1);
+  }
+  .menu__item2 {
+    position: relative;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+ .Navabar2 .menu__item2 a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+ 
+
+
+  
+ 
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  @keyframes enter {
+    from {
+      opacity: 0;
+      transform: scaleY(0.98) translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .Navabar{
+    width: 100%;
+    height: max-content;
+  }
+  /* Navbar2 */
+  
+  .Navabar2{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+  }
+ .Navbar2_item_span{
+  font-size: 15px;
+  margin-right: 8px;
+ }
+
+
+
+ .leftPanel{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50px;
+  position: absolute;
+  z-index: 10;
+  top: 300px;
+  font-size: 20px;
+  
+  background-color:#fff;
+}
+.leftPanel_item{
+  font-weight: 600;
+  padding: 10px 5px;
+  color:#333;
+  display: flex;
+  justify-content: center;
+  transition: .3s ease;
+}
+.leftPanel_item:hover{
+  transform: scale(1.2);
+}
+ 
+.leftPanel{
+  display: none;
+}
+@media screen and (max-width:1000px) {
+  .Navbar2_item_span{
+     display: none !important;
+    }
+ }
+ @media screen and (max-width:600px) {
+    .menu__item2{
+      display: none;
+    }
+ .leftPanel{
+  display: block;
+ }
+ }
