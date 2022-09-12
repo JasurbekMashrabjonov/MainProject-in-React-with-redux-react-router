@@ -6,7 +6,7 @@ function Aksiya(props) {
   const [saleHours, setSaleHours] = useState("");
   const [saleMinutes, setSaleMinutes] = useState("");
   const [saleSeconds, setSaleSeconds] = useState("");
-  let finish = "2022-9-10";
+  let finish = "2023-9-10";
   function CalcTime(endTime) {
     let time = Date.parse(endTime) - Date.parse(new Date());
     let day;

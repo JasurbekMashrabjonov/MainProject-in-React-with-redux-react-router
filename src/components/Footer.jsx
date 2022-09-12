@@ -43,19 +43,19 @@ function Footer(props) {
                 <input type="text" placeholder="Enter email address" />
                 <input type="submit" name="" value="Send" />
                 <div className="media-icons">
-                  <a href="!#">
+                  <a href="https://www.facebook.com/profile.php?id=100085213876426">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="!#">
+                  <a href="https://www.instagram.com/jasurbekbahtiyorjonuglu/">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#!">
+                  <a href="https://t.me/Jasurbek_Bahtiyorjon_uglu">
                     <i className="fa-brands fa-telegram"></i>
                   </a>
                   <a href="!#">
                     <i className="fab fa-youtube"></i>
                   </a>
-                  <a href="!#">
+                  <a href="https://www.linkedin.com/in/jasurbek-mashrabjonov-73553724a/">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>
@@ -65,7 +65,7 @@ function Footer(props) {
           <div className="bottom">
             <p>
               Copyright ©{date.getFullYear}
-              <a href="!#">Market.uz</a> All rights reserved
+              <a href="https://github.com/JasrubekMashrabjonov/MainProject-website-in-reactjs-with-rudux-routerdom-reduxthunk">Market.uz</a> All rights reserved
             </p>
           </div>
         </footer>
