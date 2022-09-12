@@ -1,3 +1,7 @@
+# Ushbu loyiha React kutubxonasi va redux, redux-thunk, redux-toolkit, react-router-dom@6 va baza bilan ishlangan;
+
+## <a href="https://mainproject-in-reactjs-with-redux.netlify.app/">Loyiha website ini ko'rish</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
